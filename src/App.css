@@ -1,0 +1,70 @@
+.main-div{
+  width:100%;
+  height: 100vh;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLRo1ebiV7_AenssQp6qtVpFl4OcMR_8tgrotnYVq3a8HDLf0DS6fYfMcigmSNa8XlRUg&usqp=CAU') no-repeat;
+  background-size:cover;
+}
+
+form{
+  text-align: center;
+  padding:4rem 0;
+}
+
+input[type="text"]{
+  width:300px;
+  padding:1rem 2rem;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+}
+
+input[type="submit"]{
+  padding:1rem 2rem;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+  background:rgb(5,131,53);
+  color:#fff;
+  cursor:pointer;
+}
+
+.pokemon-pic{
+  width:400px;
+  margin:0 auto;
+  background:#fff;
+  text-align: center;
+  border-radius: 10px;
+  padding:2rem;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.pokemon-pic img{
+  width:100%;
+}
+
+.pokemon-name-title{
+  color:#333;
+  border-top:1px solid #ccc;
+  padding:1rem 0;
+}
+
+.error{
+  width:400px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.error img{
+  width:100%
+}
+
+.error h2{
+  background-color: #8f2020;
+  padding:1rem;
+  border-radius: 10px;
+  color:#fff;
+  text-shadow:3px 3px 5px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);;
+}
